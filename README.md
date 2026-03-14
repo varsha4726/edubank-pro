@@ -1,16 +1,152 @@
-# React + Vite
+# EduBank Pro – Banking Exam Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EduBank Pro is a modern web platform designed for banking exam preparation.
+It provides structured courses, featured programs, and a clean user interface for students preparing for banking certifications and competitive exams.
 
-Currently, two official plugins are available:
+The project demonstrates modern frontend development practices using **React, Tailwind CSS, React Router, and Framer Motion**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive modern UI
+* Animated gradient hero section
+* Course categories and featured courses
+* Dropdown navigation menu
+* Smooth scroll animations using Framer Motion
+* Dark gradient theme
+* Modular component-based architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* **React (Vite)**
+* **Tailwind CSS**
+* **React Router**
+* **Framer Motion**
+* **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+
+src/
+components/
+    layout/ (Navbar, Footer)
+    home/ (Categories, FeaturedCourses, Testimonials)
+pages/ (Home, Courses, CourseDetails, Checkout)
+context/ (CartContext, AuthContext)
+assets/ (Images, icons)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/edubank-pro.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd edubank-pro
+```
+
+---
+
+## 📦 Install Dependencies
+
+Run the following command to install required packages:
+
+```bash
+npm install
+```
+
+This will install all dependencies listed in `package.json`.
+
+---
+
+## ▶️ Run the Development Server
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📦 Required Dependencies
+
+Main dependencies used in this project:
+
+```bash
+npm install react-router-dom
+npm install framer-motion
+npm install react-icons
+```
+
+Development dependencies:
+
+```bash
+npm install -D tailwindcss
+npm install -D postcss
+npm install -D autoprefixer
+```
+
+---
+
+## 🎨 Tailwind CSS Setup
+
+Initialize Tailwind CSS:
+
+```bash
+npx tailwindcss init -p
+```
+
+Configure Tailwind inside `tailwind.config.js`.
+
+Add Tailwind to `index.css`:
+
+```css
+@import "tailwindcss";
+```
+
+---
+
+## 🌐 Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+Preview the build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📄 License
+
+This project is created for educational purposes.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **[VARSHA SS]**
+
+GitHub:(https://github.com/varsha4726)
