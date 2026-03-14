@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional smoother transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+body {
+  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+  cursor: default;
+}
+button, a {
+  cursor: pointer;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradientAnimation 10s ease infinite;
+}
