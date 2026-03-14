@@ -1,4 +1,4 @@
-# EduBank Pro – Banking Exam Preparation Platform
+# EduBank Pro – It is a modern banking exam preparation platform built using React and Tailwind CSS.
 
 EduBank Pro is a modern web platform designed for banking exam preparation.
 It provides structured courses, featured programs, and a clean user interface for students preparing for banking certifications and competitive exams.
