@@ -41,20 +41,6 @@ assets/ (Images, icons)
 
 ---
 
-## ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/edubank-pro.git
-```
-
-Navigate to the project folder:
-
-```bash
-cd edubank-pro
-```
-
 ---
 
 ## 📦 Install Dependencies
